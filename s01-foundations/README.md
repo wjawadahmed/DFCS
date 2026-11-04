@@ -1,14 +1,6 @@
-![](images/media/image1.png){width="1.55in"
-height="0.8211920384951881in"}
+# DFCS Day 1 Assignment
 
-DFCS Day 1 ASSIGNMENT
-
-Name: Wazir Jawad Ahmed
-
-![](images/media/image2.png){width="0.83in"
-height="0.5237664041994751in"}
-
-**\**
+**Name:** Wazir Jawad Ahmed
 
 # Task A: Malware Types and Examples
 
@@ -93,29 +85,13 @@ monitor their systems or deal with such attacks.
 
 ## Screenshots
 
-  -----------------------------------------------------------------------
-  ![](images/media/image3.png){width="6.768055555555556in"
-                      height="2.4950492125984254in"}
+![Screenshot 1](images/media/image3.png)
 
-  -----------------------------------------------------------------------
+![Screenshot 2](images/media/image3.png)
 
-  -----------------------------------------------------------------------
-  ![](images/media/image3.png){width="6.501432633420823in"
-                      height="0.8617290026246719in"}
+![Screenshot 3](images/media/image3.png)
 
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-  ![](images/media/image3.png){width="6.768055555555556in"
-                      height="0.8104647856517935in"}
-
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-   ![](images/media/image3.png){width="6.768055555555556in"
-                       height="1.158173665791776in"}
-
-  -----------------------------------------------------------------------
+![Screenshot 4](images/media/image3.png)
 
 ## Explanation 
 
@@ -167,23 +143,12 @@ yours will look different. The first 8 bytes must read Salted\_\_.
 
 ## Screenshots
 
-  -----------------------------------------------------------------------
-   ![](images/media/image4.png){width="6.768055555555556in"
-                      height="1.9340277777777777in"}
+![](images/media/image4.png){width="6.768055555555556in" height="1.9340277777777777in"}
 
-  -----------------------------------------------------------------------
+![](images/media/image5.png){width="6.768055555555556in" height="1.4715277777777778in"}
+ 
+![](images/media/image6.png){width="6.768055555555556in" height="1.1402777777777777in"}
 
-  -----------------------------------------------------------------------
-   ![](images/media/image5.png){width="6.768055555555556in"
-                      height="1.4715277777777778in"}
-
-  -----------------------------------------------------------------------
-
-  -----------------------------------------------------------------------
-   ![](images/media/image6.png){width="6.768055555555556in"
-                      height="1.1402777777777777in"}
-
-  -----------------------------------------------------------------------
 
 ## Explanation 
 

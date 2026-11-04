@@ -10,145 +10,22 @@ height="0.5237664041994751in"}
 
 **\**
 
-# Task A: Malware types and examples
+# Task A: Malware Types and Examples
 
-  ----------------------- --------------- ---------------- ------------------- -----------------
-  **Type**                **Definition in **Named          **How it spread**   **Primary
-                          my own words**  example + year**                     impact**
-
-  **Virus**               A program that  **CIH (Chernobyl Infected            Overwrote data on
-                          attaches itself virus)**, 1998   executables passed  the hard disk
-                          to another                       around on floppies, and, on some
-                          file, usually                    pirated software    motherboards,
-                          an .exe, and                     and email           wiped the BIOS
-                          only runs and                    attachments.        flash chip so the
-                          spreads when                                         PC would not even
-                          someone runs                                         start.
-                          that infected                                        
-                          file.                                                
-
-  **Worm**                Malware that    **WannaCry**,    Used the Eternal    I encrypted files
-                          copies itself   May 2017         Blue exploit        and asked for
-                          from machine to                  against SMBv1 file  Bitcoin. It hit
-                          machine over                     sharing on          around 150
-                          the network by                   unpatched Windows   countries and
-                          abusing a bug                    PCs, then scanned   forced UK NHS
-                          in a service.                    for more victims.   hospitals to
-                          Nobody has to                                        cancel
-                          click anything.                                      appointments.
-
-  **Trojan**              Malware that    **Zeus (Zbot)**, Phishing emails and Logged keystrokes
-                          pretends to be  2007             drive-by downloads  and grabbed login
-                          something                        from hacked         forms inside the
-                          useful or                        websites.           browser to steal
-                          harmless, so                                         online banking
-                          the user                                             details and empty
-                          installs it                                          accounts.
-                          themselves. It                                       
-                          does not spread                                      
-                          on its own.                                          
-
-  **Ransomware**          Malware that    **REvil via      Supply-chain        Hit IT service
-                          locks or        Kaseya VSA**,    attack: criminals   providers and,
-                          encrypts your   July 2021        abused a flaw in    through them,
-                          files and                        Kaseya              1,500 small
-                          demands money                    remote-management   businesses. REvil
-                          for the key to                   software and pushed asked for seventy
-                          get them back.                   ransomware to its   million dollars
-                                                           customers as if it  to unlock
-                                                           were an update.     everything.
-
-  **Spyware**             Software that   **Pegasus (NSO   Malicious links at  Full access to
-                          secretly        Group)**,        first, later        the phone:
-                          watches what    founded 2016,    zero-click exploits messages, calls,
-                          you do and      widely exposed   through iMessage    camera,
-                          sends it to     2021             and WhatsApp that   microphone,
-                          someone else.                    needed no tap from  location. Used
-                                                           the victim.         against
-                                                                               journalists,
-                                                                               activists, and
-                                                                               politicians.
-
-  **Adware**              Software that   **Fireball**,    Bundled inside free Hijacked the home
-                          pushes unwanted 2017             software that       page and search
-                          ads, often by                    people downloaded   engine on an
-                          changing                         and installed.      estimated 250
-                          browser                                              million computers
-                          settings or                                          and could also
-                          injecting ads                                        download more
-                          into pages, to                                       malware.
-                          earn money for                                       
-                          its owner.                                           
-
-  **Rootkit**             Malware built   **Sony BMG       Installed itself    Hid files and
-                          to hide itself, XCP**, 2005      when someone played processes and
-                          and other                        one of Sony\'s      left the PC open
-                          malware, from                    music CDs on a      for other malware
-                          the operating                    Windows PC.         to hide behind
-                          system and                                           it. Led to a
-                          antivirus by                                         recall and
-                          running at an                                        lawsuits.
-                          exceptionally                                        
-                          low level.                                           
-
-  **Keylogger**           Records every   **Agent Tesla**, Cheap commercial    Stole saved
-                          key you press,  2014 onward      tool sold online;   browser
-                          so the attacker                  delivered by        passwords,
-                          gets passwords,                  phishing emails     screenshots and
-                          card numbers,                    with booby-trapped  keystrokes and
-                          and chats.                       Office or archive   sent them out by
-                                                           attachments.        email or FTP,
-                                                                               often from small
-                                                                               and mid-sized
-                                                                               companies.
-
-  **Botnet agent**        A small program **Mirai**, 2016  Scanned the         Its botnet
-                          that turns an                    internet for        launched the DDoS
-                          infected device                  cameras and routers on DNS provider
-                          into a bot                       and logged in with  Dyn in October
-                          waiting for                      factory default     2016, knocking
-                          orders from a                    passwords.          sites like
-                          command server,                                      Twitter, Netflix,
-                          so thousands                                         and Reddit
-                          can attack                                           offline for many
-                          together.                                            users.
-
-  **Fileless /            Attacks that    **Operation      Spear-phishing      Months of quiet
-  living-off-the-land**   use tools       Cobalt Kitty     first, then         spying inside a
-                          already on the  (APT32 /         PowerShell, WMI and large corporation
-                          machine         OceanLotus)**,   scheduled tasks to  in Southeast
-                          (PowerShell,    2017             stay on the         Asia.
-                          WMI, scheduled                   network.            
-                          tasks) and live                                      
-                          in memory or                                         
-                          the registry,                                        
-                          so there is                                          
-                          little or no                                         
-                          malicious file                                       
-                          to scan.                                             
-
-  **Logic bomb**          Code that sits  **UBS            Not spread at all.  Deleted files on
-                          quietly until a PaineWebber      Planted by an       around 2,000
-                          condition is    (Roger           insider who was a   servers across
-                          met, like a     Duronio)**, 2002 system              the company\'s
-                          date or an                       administrator.      branches and cost
-                          account being                                        millions to
-                          deleted, and                                         recover. Duronio
-                          then does                                            was sent to
-                          damage.                                              prison.
-
-  **Bootkit**             A rootkit that  **TDL4 (TDSS)**, Installed through a Survived
-                          infects the     2010             pay-per-install     reinstalls and
-                          boot process                     network, mostly     hid from
-                          (the MBR or                      from infected       antivirus. Built
-                          boot sector) so                  downloads and       a botnet of
-                          it loads before                  hacked websites.    millions of PCs
-                          the operating                                        used for fraud
-                          system and                                           and spam.
-                          security tools                                       
-                          do.                                                  
-  ----------------------- --------------- ---------------- ------------------- -----------------
-
+| **Type** | **Definition in My Own Words** | **Named Example + Year** | **How It Spread** | **Primary Impact** |
+|---|---|---|---|---|
+| **Virus** | A program that attaches itself to another file, usually an `.exe`, and only runs and spreads when someone runs that infected file. | **CIH (Chernobyl Virus), 1998** | Infected executables passed around on floppies, pirated software and email attachments. | Overwrote data on the hard disk and, on some motherboards, wiped the BIOS flash chip so the PC would not even start. |
+| **Worm** | Malware that copies itself from machine to machine over the network by abusing a bug in a service. Nobody has to click anything. | **WannaCry, May 2017** | Used the EternalBlue exploit against SMBv1 file sharing on unpatched Windows PCs, then scanned for more victims. | Encrypted files and asked for Bitcoin. It hit around 150 countries and forced UK NHS hospitals to cancel appointments. |
+| **Trojan** | Malware that pretends to be something useful or harmless, so the user installs it themselves. It does not spread on its own. | **Zeus (Zbot), 2007** | Phishing emails and drive by downloads from hacked websites. | Logged keystrokes and grabbed login forms inside the browser to steal online banking details and empty accounts. |
+| **Ransomware** | Malware that locks or encrypts your files and demands money for the key to get them back. | **REvil via Kaseya VSA, July 2021** | Supply chain attack: criminals abused a flaw in Kaseya remote management software and pushed ransomware to its customers as if it were an update. | Hit IT service providers and, through them, 1,500 small businesses. REvil asked for seventy million dollars to unlock everything. |
+| **Spyware** | Software that secretly watches what you do and sends it to someone else. | **Pegasus (NSO Group), founded 2016, widely exposed 2021** | Malicious links at first, later zero click exploits through iMessage and WhatsApp that needed no tap from the victim. | Full access to the phone: messages, calls, camera, microphone and location. Used against journalists, activists and politicians. |
+| **Adware** | Software that pushes unwanted ads, often by changing browser settings or injecting ads into pages, to earn money for its owner. | **Fireball, 2017** | Bundled inside free software that people downloaded and installed. | Hijacked the home page and search engine on an estimated 250 million computers and could also download more malware. |
+| **Rootkit** | Malware built to hide itself and other malware from the operating system and antivirus by running at an exceptionally low level. | **Sony BMG XCP, 2005** | Installed itself when someone played one of Sony's music CDs on a Windows PC. | Hid files and processes and left the PC open for other malware to hide behind it. Led to a recall and lawsuits. |
+| **Keylogger** | Records every key you press, so the attacker gets passwords, card numbers and chats. | **Agent Tesla, 2014 onward** | Cheap commercial tool sold online; delivered by phishing emails with booby trapped Office or archive attachments. | Stole saved browser passwords, screenshots and keystrokes and sent them out by email or FTP, often from small and mid sized companies. |
+| **Botnet Agent** | A small program that turns an infected device into a bot waiting for orders from a command server, so thousands can attack together. | **Mirai, 2016** | Scanned the internet for cameras and routers and logged in with factory default passwords. | Its botnet launched the DDoS on DNS provider Dyn in October 2016, knocking sites like Twitter, Netflix and Reddit offline for many users. |
+| **Fileless / Living Off the Land** | Attacks that use tools already on the machine (PowerShell, WMI, scheduled tasks) and live in memory or the registry, so there is little or no malicious file to scan. | **Operation Cobalt Kitty (APT32 / OceanLotus), 2017** | Spear phishing first, then PowerShell, WMI and scheduled tasks to stay on the network. | Months of quiet spying inside a large corporation in Southeast Asia. |
+| **Logic Bomb** | Code that sits quietly until a condition is met, like a date or an account being deleted, and then does damage. | **UBS PaineWebber (Roger Duronio), 2002** | Not spread at all. Planted by an insider who was a system administrator. | Deleted files on around 2,000 servers across the company's branches and cost millions to recover. Duronio was sent to prison. |
+| **Bootkit** | A rootkit that infects the boot process (the MBR or boot sector) so it loads before the operating system and security tools do. | **TDL4 (TDSS), 2010** | Installed through a pay per install network, mostly from infected downloads and hacked websites. | Survived reinstalls and hid from antivirus. Built a botnet of millions of PCs used for fraud and spam. |
 ## Which type is most dangerous for a Pakistani SME?
 
 I think ransomware is the biggest threat for Pakistani SMEs because most
